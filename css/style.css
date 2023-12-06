@@ -1,0 +1,144 @@
+body {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+#logo { 
+    padding: 0%;
+    margin: -2%;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: clip;
+    height: 100px;
+    width: 100px;
+}
+
+.underline_left {
+    float: inline-start;
+}
+div {
+    display: block;
+}
+
+label {
+    display: inline-block;
+    margin: 0% -2% -2% 0%;
+}
+
+.topNav {
+    background-color: white;
+    opacity: 0.8;
+    margin: auto;
+    position: fixed;
+    top: 0;
+}
+
+.topNav a {
+    float: right;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 24px;
+    text-decoration: none;
+    font-size: .7em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.topNav {
+    position: fixed;
+    top: 0;
+    width: 96%;
+    z-index: 999;
+    font-size: 100%;
+    text-align: left;
+    font-weight: 800;
+    padding: 1% 1% 1% 1%;
+}
+
+.topNav {
+    font-size: 1.5em;
+    line-height: 200%;
+    font-weight: 800;
+    color: #000;
+}
+user agent stylesheet
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5em;
+    line-height: 200%;
+    font-weight: 800;
+    color: #000;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.bodyContainer {
+    width: 100%;
+    padding-top: 10%;
+    font-size: 0.8em;
+    float: center;
+}
+
+.body {
+    width: 80%;
+    margin: auto 11%;
+}
+
+.container-index {
+    width: 80%;
+    position: relative;
+    float: left;
+    width: 100%;
+    opacity: 0.6;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.fade-in.one {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.grid {
+    display: flex;
+    float: center;
+    padding: 150px;
+    margin: 10px; 
+}
+
+#work {
+    flex-direction: column;
+    background-color: white;
+}
+
+.project-item {
+    padding: 150px;
+    margin: 10px;
+    background-color: #092c4c;
+    color: white;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: right;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
